@@ -1,0 +1,53 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+}
+
+h3 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  width: 95%;
+  text-align: center;
+  margin: 20px auto 10px;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  width: 95%;
+  margin: 20px auto 10px;
+}
+
+.parent-card {
+  padding: 1.5%;
+  background-color: hsl(0, 0%, 100%);
+  width: 30%;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+
+.parent-card img {
+  width: 100%;
+  border-radius: 8.5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  .parent-card {
+    width: 90%;
+  }
+}
